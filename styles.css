@@ -1,0 +1,27 @@
+body {font-family: Arial, sans-serif; background: 
+      linear-gradient(to bottom, rgb(230, 230, 255) 50%, blue 95%)}
+
+h1 {padding: 10px 10px 0px 10px; width: inherit; box-sizing: border-box; min-width: 550px;
+    -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: cyan;
+    font-size: 3em; color: white; background: linear-gradient(to right, black 30%, cyan 90%);
+    display: flex; justify-content: space-between}
+
+.Section {background-size: cover; box-sizing: border-box; min-width: 550px;
+          border-style: solid; background-color: rgb(200, 200, 200); border-color: black; 
+          border-width: thick; margin-bottom: 50px; width: inherit; position: relative}
+.Section:hover {background-color: white; border-color: aqua}          
+
+h2 {padding-left: 3px; color: rgb(200, 200, 200); background-color: black;
+    -webkit-text-stroke-width: 0.5px; -webkit-text-stroke-color: white}
+.Section:hover h2 {color: white; background-color: aqua; -webkit-text-stroke-color: black}
+
+h3 {padding-left: 3px; color: cyan; background-color: rgb(75, 150, 150);
+    -webkit-text-stroke-width: 0.5px; -webkit-text-stroke-color: black   }
+
+p {margin-left: 10px; margin-right: 10px}
+
+li {margin-right: 10px}
+
+.Middle {text-align: center; color: white}
+
+.Logo img {display: block; margin-left: auto; margin-right: auto}
